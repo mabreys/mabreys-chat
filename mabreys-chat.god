@@ -1,5 +1,5 @@
 God.watch do |w|
   w.name = "mabreys-chat"
-  w.start = "start.sh"
+  w.start = "npm --prefix /home/ezra/mabreys-chat start"
   w.keepalive
 end
